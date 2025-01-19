@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "anon-ask"
+version = "0.1.0"
+description = ""
+authors = ["vovmomyt <volodya.artemev.1999@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+loguru = "^0.7.2"
+aiosqlite = "^0.20.0"
+aiogram = "^3.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
